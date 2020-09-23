@@ -6,10 +6,9 @@ package = "netlify-plugin-csp-generator"
 
   [plugins.inputs.policies]
     defaultSrc = "'self'"
-    connectSrc = "'self' https://www.google-analytics.com https://formspree.io https://tillys-website-payments.tillysinteriors.now.sh https://*.stripe.com https://*.wistia.com"
-    frameSrc = "https://fast.wistia.net https://*.stripe.com"
-    imgSrc = "'self' data: https://images.prismic.io https://ik.imagekit.io https://www.google-analytics.com"
-    scriptSrc = "'self' https://www.google-analytics.com https://ssl.google-analytics.com https://www.googletagmanager.com https://*.stripe.com"
+    connectSrc = "'self'"
+    imgSrc = "'self' data:"
+    scriptSrc = "'self'"
     styleSrc = "'self' 'unsafe-hashes'"
 
 [build]
